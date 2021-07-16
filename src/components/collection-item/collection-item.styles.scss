@@ -1,0 +1,28 @@
+.collection-item {
+  width: 22%;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  height: 350px;
+
+  .image {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 95%;
+    background-size: cover;
+    background-position: center;
+  }
+  .collection-footer {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+    .name {
+      margin-bottom: 15px;
+    }
+
+  }
+}

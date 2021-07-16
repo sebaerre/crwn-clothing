@@ -1,0 +1,18 @@
+.collection-preview {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-flow: column;
+  margin-bottom: 30px;
+
+  .title {
+      text-align: left;
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .preview {
+    display: flex;
+    justify-content: space-between;
+  }
+}
